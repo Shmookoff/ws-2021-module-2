@@ -1,0 +1,5 @@
+export { default as HomeSearch } from './HomeSearch.vue'
+export { default as HomePrinciples } from './HomePrinciples.vue'
+export { default as HomeTrust } from './HomeTrust.vue'
+export { default as HomePromo } from './HomePromo.vue'
+export { default as HomeSubscription } from './HomeSubscription.vue'

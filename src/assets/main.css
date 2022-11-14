@@ -1,0 +1,89 @@
+@import url("./base.css");
+
+* {
+  transition: all 0.2s ease;
+}
+
+.bg-traffic-img {
+  background-image: url(@/assets/img/traffic.jpg);
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .container-md {
+    width: 100%;
+
+    @media (min-width: 640px) {
+      max-width: 320px;
+    }
+
+    @media (min-width: 768px) {
+      max-width: 640px;
+    }
+
+    @media (min-width: 1024px) {
+      max-width: 768px;
+    }
+
+    @media (min-width: 1280px) {
+      max-width: 1024px;
+    }
+
+    @media (min-width: 1536px) {
+      max-width: 1280px;
+    }
+
+  }
+
+  .container-sm {
+    width: 100%;
+
+    @media (min-width: 640px) {
+      max-width: 160px;
+    }
+
+    @media (min-width: 768px) {
+      max-width: 320px;
+    }
+
+    @media (min-width: 1024px) {
+      max-width: 640px;
+    }
+
+    @media (min-width: 1280px) {
+      max-width: 768px;
+    }
+
+    @media (min-width: 1536px) {
+      max-width: 1024px;
+    }
+  }
+
+  .container-xs {
+    width: 100%;
+
+    @media (min-width: 640px) {
+      max-width: 80px;
+    }
+
+    @media (min-width: 768px) {
+      max-width: 160px;
+    }
+
+    @media (min-width: 1024px) {
+      max-width: 320px;
+    }
+
+    @media (min-width: 1280px) {
+      max-width: 640px;
+    }
+
+    @media (min-width: 1536px) {
+      max-width: 768px;
+    }
+  }
+}
